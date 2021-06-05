@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart Seifeddine KADHI</title>
+    <style>
+       
+        h1{
+        margin-left: 300px;
+        font-size: 100px;
+        color:yellow;
+        }
+        .cartable{
+            width: 200px;
+        }
+        .section1{
+            background-color: violet;
+            display: flex;
+            justify-content:left;
+            flex-wrap: wrap;
+            align-items:center;
+        
+        }
+        .section1>form{
+            flex-direction: column;
+            flex-wrap: wrap-reverse;
+            margin-top: 50px;
+        }
+        .section2{
+            background-color: turquoise;
+            display: flex;
+            justify-content:left;
+            flex-wrap: wrap;
+            align-items:center;
+        
+        }
+        .section2>form{
+            flex-direction: column;
+            flex-wrap: wrap-reverse;
+            margin-top: 50px;
+        }
+        .section3{
+            background-color: teal;
+            display: flex;
+            justify-content:left;
+            flex-wrap: wrap;
+            align-items:flex-end;
+        }
+        .section3>form{
+            
+            flex-direction: column;
+            flex-wrap: wrap-reverse;
+            margin-top: 50px;
+        }
+   
+        button{
+            width: 30px;
+            height: 30px;
+            margin-top: 80px;
+            background-color: red;
+        }
+        .number1,.number3{
+            background-color: green;
+            color: white;
+            width: 100px;
+            border-color: black;
+        }
+        .number5{
+            background-color: green;
+            color: white;
+            width: 50px;
+            border-color: black; 
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Shopping cart</h1>
+    <section class="section1" id="sec1">
+        <img class="cartable" src="https://bv-prd-fbi-fr-media.s3.amazonaws.com/pub/media/catalog/product/cache/ef4a54899b4f9d060853d6e60ec5e0f4/a/c/ac9ea268fa7bb1b917706ec469dd74d413d95489_79363505_1_21.jpg">
+        <form>
+            <label id="demo">Price</label>
+            <label id="a" name="a" type="number" >30000</label>
+            <label >DT</label>
+            <input type="text" id="number" value="0"/>
+            <input type="button" onclick="incrementValue()" value="+" />
+            <input type="button" onclick="decrementValue()" value="-" />
+            =
+            <output class="number1" id="number1" type="text"  value="0" >0</output>
+            <Label>DT</Label>
+            <button onclick="removeFunction()">X</button>
+    </form>
+       
+    </section>
+    
+    
+    <section class="section2" id="sec2">
+        <img class="cartable" src="https://bv-prd-fbi-fr-media.s3.amazonaws.com/pub/media/catalog/product/cache/ef4a54899b4f9d060853d6e60ec5e0f4/7/0/706134b409363fd26dc7648fbb621bf367f623df_79373106_2_21.jpg">
+        <form>
+            <label id="demo">Price</label>
+            <label id="a" name="a" type="number" >20000</label>
+            <label >DT</label>
+            <input type="text" id="number2" value="0"/>
+            <input type="button" onclick="incrementValue1()" value="+" />
+            <input type="button" onclick="decrementValue1()" value="-" />
+            =
+            <output class="number3" id="number3" type="text"  value="0" >0</output>
+            <Label>DT</Label>
+            <button onclick="removeFunction1()">X</button>
+    </section>
+   
+    <section class="section3" id="sec3">
+        <img class="cartable" src="https://assets.laboutiqueofficielle.com/w_450,q_auto,f_auto/media/products/2019/06/04/new-era_185596_11942041_20190611T092235_01.jpg">
+        <form class="form">
+            <label id="demo">Price</label>
+            <label id="a" name="a" type="number" >25000</label>
+            <label >DT</label>
+            <input type="text" id="number4" value="0"/>
+            <input type="button" onclick="incrementValue2()" value="+" />
+            <input type="button" onclick="decrementValue2()" value="-" />
+            =
+            <output class="number5" id="number5" type="text"  value="0" >0</output>
+            <Label>DT</Label>
+            <button onclick="removeFunction2()">X</button>
+    </section>
+
+    
+
+
+    <script src="C:\Users\ADMIN\Desktop\GoMyCode\Me\HTML\Shopping cart.js"></script>
+</body>
+</html>
