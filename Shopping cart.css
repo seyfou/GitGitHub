@@ -1,0 +1,68 @@
+h1{
+    margin-left: 300px;
+    font-size: 100px;
+    color:yellow;
+    }
+    .cartable{
+        width: 200px;
+    }
+    .section1{
+        background-color: violet;
+        display: flex;
+        justify-content:left;
+        flex-wrap: wrap;
+        align-items:center;
+    
+    }
+    .section1>form{
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        margin-top: 50px;
+    }
+    .section2{
+        background-color: turquoise;
+        display: flex;
+        justify-content:left;
+        flex-wrap: wrap;
+        align-items:center;
+    
+    }
+    .section2>form{
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        margin-top: 50px;
+    }
+    .section3{
+        background-color: teal;
+        display: flex;
+        justify-content:left;
+        flex-wrap: wrap;
+        align-items:flex-end;
+    }
+    .section3>form{
+        
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        margin-top: 50px;
+    }
+
+    button{
+        width: 30px;
+        height: 30px;
+        margin-top: 80px;
+        background-color: red;
+    }
+    .number1,.number3{
+        background-color: green;
+        color: white;
+        width: 100px;
+        border-color: black;
+    }
+    .number5{
+        background-color: green;
+        color: white;
+        width: 50px;
+        border-color: black; 
+    }
+    
+    
